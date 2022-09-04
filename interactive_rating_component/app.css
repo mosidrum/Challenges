@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 16px;
+    color: #fff;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn-container button {
+    padding: 15px;
+    height: 40px;
+    background: hsl(212, 17%, 20%);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 5px;
+    color: hsl(212, 12%, 63%);
+}
+/* over stage*/
+.btn-container button:hover {
+    background-color:hsl(212, 12%, 63%);
+    color:#fff
+}
+/*active stage*/
+.btn-container button:active {
+    background-color: hsl(25, 97%, 53%);
+    color:#fff
+}
+.btn-container {
+    margin-bottom: 20px;
+    padding-left:60px ;
+}
+.card-container {
+    padding: 10px;
+}
+.card-container button {
+    padding: 10px;
+}
+.submit {
+    width: 100%;
+    padding: 30px, 20px;
+    border: none;
+    outline: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 20px;
+}
+.submit:hover {
+    background: #fff;
+    color: hsl(25, 97%, 53%);
+}
+.card-header img {
+    background: hsl(212, 17%, 20%);
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card-body h2 {
+    text-align: center;
+    align-content: justify;
+}
+.card-body p {
+    text-align: center;
+    align-content: justify;
+}
+.hide {
+    display: none;
+}
+.card-2 {
+    text-align: center;
+}
+.attribution {
+    text-align: center;
+    color: white;
+}
