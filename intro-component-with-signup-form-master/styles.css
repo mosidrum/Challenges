@@ -12,6 +12,9 @@
 .field-group.error .error-icon{
 	display: block;
 }
+.field-group.error input{
+	border: 2px solid hsl(0, 100%, 74%);
+}
 html{
 	font-size: 16px;
 	font-family: 'poppins', sans-serif;
